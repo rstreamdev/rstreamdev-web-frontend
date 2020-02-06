@@ -1,0 +1,2 @@
+BeforeInstall: sudo apt install apache2
+AfterInstall: sudo /etc/init.d/apache2 restart
